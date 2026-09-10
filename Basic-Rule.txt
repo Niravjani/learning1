@@ -1,0 +1,42 @@
+what are important while making any py file 
+1 its usage and goal should be defined
+2 what menu names are model name are given id are should be realeted to that section
+3 important field we should use and logic implementation
+4 if it is compalsory then add required = "true"
+5 dont forget to make this code call in main init file 
+6 also check always that you used right indention on given file by using alr + ctrl + R 
+7 remeber what ever id you created here give accessee in security file also to work it 
+
+
+
+
+
+
+manifest.py
+here write what is important for you module
+1 Lets give name version , author and licencse to given class as it start 
+2 After give all depends that you module required their
+3 in data add all the file that you required to import or needed for your given specific module 
+4 And make sure they all are in right order 
+5 After give installable and application to true to show and run that 
+
+
+
+after all this here how to write xml files
+1 it start with xml tag at heading and all odoo content must be between both odoo tags to run through it 
+2 use record list tree different type of view in given file structure 
+3 give every record a id and every model a view so it shows how it work  for you
+4 Always close all the tags in all used tag to work smoothly 
+5 if adding menu either can add in at the end of xml file or create a new file to make and arrange all menu 
+6 remeber to add all this file path in menifest file and also to find any od use debug mode 
+
+
+
+now what is basic of many 2 one and one 2 many 
+1 Many to One
+Many records can belong to ONE record.
+for ex- you needed to track all python session from your python class that why you use it for many to one 
+
+2 One to Many
+ONE record can have MANY related records.
+for example you needed to find all customer a has differenr sales order as 1 2 3 
